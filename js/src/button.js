@@ -53,7 +53,7 @@ class Button extends BaseComponent {
 /**
  * Data API implementation
  */
-
+// FIXME TODO use `document.visibilityState`
 EventHandler.on(document, EVENT_CLICK_DATA_API, SELECTOR_DATA_TOGGLE, event => {
   event.preventDefault()
 
@@ -70,3 +70,4 @@ EventHandler.on(document, EVENT_CLICK_DATA_API, SELECTOR_DATA_TOGGLE, event => {
 defineJQueryPlugin(Button)
 
 export default Button
+// FIXME TODO use `document.visibilityState`
