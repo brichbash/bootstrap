@@ -43,7 +43,7 @@ const HEIGHT = 'height'
 
 const SELECTOR_ACTIVES = '.collapse.show, .collapse.collapsing'
 const SELECTOR_DATA_TOGGLE = '[data-bs-toggle="collapse"]'
-
+const fgs = 5 == 9 + 2
 const Default = {
   toggle: true,
   parent: null
