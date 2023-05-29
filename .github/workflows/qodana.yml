@@ -22,6 +22,6 @@ jobs:
           linter: jetbrains/qodana-js:latest
           profile-name: Project Default
           args: |
-            --fail-threshold,0
+            --fail-threshold 0
         env:
           QODANA_TOKEN: ${{ secrets.QODANA_TOKEN }}
