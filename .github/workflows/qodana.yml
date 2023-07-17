@@ -17,7 +17,7 @@ jobs:
           node-version: '16'
       - run: npm install
       - name: 'Qodana Scan'
-        uses: JetBrains/qodana-action@v2023.1.6
+        uses: JetBrains/qodana-action@v2023.1.5
         with:
           args: -l,jetbrains/qodana-js:2023.1-eap
         env:
