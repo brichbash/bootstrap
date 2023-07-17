@@ -19,9 +19,6 @@ jobs:
       - name: 'Qodana Scan'
         uses: JetBrains/qodana-action@v2022.3.0
         with:
-          linter: jetbrains/qodana-js:latest
-          profile-name: Project Default
-          args: |
-            --fail-threshold 0
+          linter: jetbrains/qodana-js:2023.1-eap
         env:
           QODANA_TOKEN: ${{ secrets.QODANA_TOKEN }}
