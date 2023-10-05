@@ -20,5 +20,6 @@ jobs:
         uses: JetBrains/qodana-action@v2023.2.6
         with:
           args: -l,jetbrains/qodana-js:2023.2-eap
-        env:
-          QODANA_TOKEN: ${{ secrets.QODANA_TOKEN }}
+          primary-cache-key: qd1
+          additional-cache-key: dq2
+        
