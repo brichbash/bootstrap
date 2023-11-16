@@ -19,7 +19,7 @@ jobs:
         env:
           QODANA_TOKEN: ${{ secrets.QODANA_TOKEN }}
         with:
-          args: -l,jetbrains/qodana-js:latest
+          args: --ide,QDJS
           primary-cache-key: qd1
           additional-cache-key: dq2
         
