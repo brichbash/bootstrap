@@ -106,7 +106,7 @@ class Carousel extends BaseComponent {
     this._indicatorsElement = SelectorEngine.findOne(SELECTOR_INDICATORS, this._element)
     this._addEventListeners()
   }
-
+  // changes to allow creating a PR
   // Getters
   static get Default() {
     return Default
