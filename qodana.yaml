@@ -14,5 +14,6 @@ include:
   - name: VulnerableLibrariesGlobal
   - name: VulnerableLibrariesLocal
   - name: Eslint
-
-fixesStrategy: cleanup
+failureConditions:
+  severityThresholds:
+    any: 0
