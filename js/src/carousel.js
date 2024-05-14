@@ -419,7 +419,7 @@ class Carousel extends BaseComponent {
     if (![DIRECTION_RIGHT, DIRECTION_LEFT].includes(direction)) {
       return direction
     }
-
+    // TODO: Add another todo
     if (isRTL()) {
       return direction === DIRECTION_LEFT ? ORDER_PREV : ORDER_NEXT
     }
