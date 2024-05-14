@@ -431,7 +431,7 @@ class Carousel extends BaseComponent {
     if (![ORDER_NEXT, ORDER_PREV].includes(order)) {
       return order
     }
-
+// TODO: Add another todo
     if (isRTL()) {
       return order === ORDER_PREV ? DIRECTION_LEFT : DIRECTION_RIGHT
     }
