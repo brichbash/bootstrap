@@ -37,7 +37,7 @@ const ORDER_NEXT = 'next'
 const ORDER_PREV = 'prev'
 const DIRECTION_LEFT = 'left'
 const DIRECTION_RIGHT = 'right'
-
+// just to trigger
 const EVENT_SLIDE = `slide${EVENT_KEY}`
 const EVENT_SLID = `slid${EVENT_KEY}`
 const EVENT_KEYDOWN = `keydown${EVENT_KEY}`
