@@ -13,5 +13,7 @@ include:
   - name: VulnerableCodeUsages
   - name: VulnerableLibrariesGlobal
   - name: VulnerableLibrariesLocal
-
+failureConditions:
+  severityThresholds:
+    any: 0
 fixesStrategy: cleanup
