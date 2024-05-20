@@ -86,7 +86,7 @@ const DefaultType = {
   wrap: 'boolean',
   touch: 'boolean'
 }
-
+// TODO: Todo
 /**
  * Class definition
  */
