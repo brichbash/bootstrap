@@ -20,4 +20,5 @@ jobs:
           QODANA_TOKEN: ${{ secrets.QODANA_TOKEN }}
         with:
           pr-mode: true
+          upload-result: true
         
