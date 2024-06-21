@@ -111,7 +111,7 @@ class Carousel extends BaseComponent {
   static get Default() {
     return Default
   }
-
+// TODO: Todo somg
   static get DefaultType() {
     return DefaultType
   }
