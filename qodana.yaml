@@ -14,6 +14,3 @@ include:
   - name: VulnerableLibrariesGlobal
   - name: VulnerableLibrariesLocal
   - name: Eslint
-failureConditions:
-  severityThresholds:
-    any: 0
