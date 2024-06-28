@@ -86,7 +86,6 @@ const DefaultType = {
   wrap: 'boolean',
   touch: 'boolean'
 }
-// TODO: Todo
 /**
  * Class definition
  */
@@ -111,7 +110,6 @@ class Carousel extends BaseComponent {
   static get Default() {
     return Default
   }
-// TODO: Todo somg
   static get DefaultType() {
     return DefaultType
   }
@@ -419,7 +417,6 @@ class Carousel extends BaseComponent {
     if (![DIRECTION_RIGHT, DIRECTION_LEFT].includes(direction)) {
       return direction
     }
-    // TODO: Add another todo
     if (isRTL()) {
       return direction === DIRECTION_LEFT ? ORDER_PREV : ORDER_NEXT
     }
@@ -431,7 +428,6 @@ class Carousel extends BaseComponent {
     if (![ORDER_NEXT, ORDER_PREV].includes(order)) {
       return order
     }
-// TODO: Add another todo
     if (isRTL()) {
       return order === ORDER_PREV ? DIRECTION_LEFT : DIRECTION_RIGHT
     }
