@@ -15,4 +15,4 @@ include:
   - name: VulnerableLibrariesLocal
   - name: Eslint
 
-fixesStrategy: cleanup
+fixesStrategy: apply
