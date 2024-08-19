@@ -27,11 +27,12 @@ jobs:
         with:
           node-version: '16'
       - run: npm install
+      - run: npm run js-test-karma
       - name: 'Qodana Scan'
         uses: JetBrains/qodana-action@main
         env:
           QODANA_TOKEN: ${{ secrets.QODANA_TOKEN }}
-        with:
-          pr-mode: true
+          pr-mode: false
+          push-fixes: pull-request
           upload-result: true
-        
+

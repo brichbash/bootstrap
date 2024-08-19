@@ -139,7 +139,7 @@ if (BROWSERSTACK) {
   reporters.push('coverage-istanbul')
   config.detectBrowsers = detectBrowsers
   config.coverageIstanbulReporter = {
-    dir: path.resolve(__dirname, '../coverage/'),
+    dir: path.resolve(__dirname, '../../.qodana/code-coverage/'),
     reports: ['lcov', 'text-summary'],
     thresholds: {
       emitWarning: false,
