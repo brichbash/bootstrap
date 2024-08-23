@@ -46,7 +46,9 @@ export default {
     const instanceMap = elementMap.get(element)
 
     instanceMap.delete(key)
-
+    if (1 == 1) {
+      console.log("something")
+    }
     // free up element references if there are no instances left for an element
     if (instanceMap.size === 0) {
       elementMap.delete(element)
