@@ -19,7 +19,7 @@ import Manipulator from './dom/manipulator'
 import SelectorEngine from './dom/selector-engine'
 import Swipe from './util/swipe'
 import BaseComponent from './base-component'
-
+// TODO: Some todo
 /**
  * Constants
  */
@@ -28,6 +28,7 @@ const NAME = 'carousel'
 const DATA_KEY = 'bs.carousel'
 const EVENT_KEY = `.${DATA_KEY}`
 const DATA_API_KEY = '.data-api'
+// TODO: Some todo
 
 const ARROW_LEFT_KEY = 'ArrowLeft'
 const ARROW_RIGHT_KEY = 'ArrowRight'
@@ -63,6 +64,7 @@ const SELECTOR_NEXT_PREV = '.carousel-item-next, .carousel-item-prev'
 const SELECTOR_INDICATORS = '.carousel-indicators'
 const SELECTOR_DATA_SLIDE = '[data-bs-slide], [data-bs-slide-to]'
 const SELECTOR_DATA_RIDE = '[data-bs-ride="carousel"]'
+// TODO: Some todo
 
 const KEY_TO_DIRECTION = {
   [ARROW_LEFT_KEY]: DIRECTION_RIGHT,
