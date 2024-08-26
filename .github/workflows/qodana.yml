@@ -37,7 +37,6 @@ jobs:
         env:
           QODANA_TOKEN: ${{ secrets.QODANA_TOKEN }}
         with:
-          pr-mode: false
-          push-fixes: pull-request
+          args: -l, jetbrains/qodana-jvm:2024.2-eap
           upload-result: true
 
