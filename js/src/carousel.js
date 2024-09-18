@@ -86,7 +86,7 @@ const DefaultType = {
   wrap: 'boolean',
   touch: 'boolean'
 }
-
+// TODO: FOO
 /**
  * Class definition
  */
@@ -113,7 +113,7 @@ class Carousel extends BaseComponent {
   static get Default() {
     return Default
   }
-
+// TODO: FOO
   static get DefaultType() {
     return DefaultType
   }
