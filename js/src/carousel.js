@@ -23,7 +23,7 @@ import BaseComponent from './base-component'
 /**
  * Constants
  */
-
+// TODO: FOO
 const NAME = 'carousel'
 const DATA_KEY = 'bs.carousel'
 const EVENT_KEY = `.${DATA_KEY}`
@@ -77,6 +77,7 @@ const Default = {
   wrap: true,
   touch: true
 }
+// TODO: FOO
 
 const DefaultType = {
   interval: '(number|boolean)',
@@ -86,6 +87,7 @@ const DefaultType = {
   wrap: 'boolean',
   touch: 'boolean'
 }
+// TODO: FOO
 
 /**
  * Class definition
