@@ -28,6 +28,5 @@ jobs:
         env:
           QODANA_TOKEN: ${{ secrets.QODANA_TOKEN }}
         with:
-          args: -l, jetbrains/qodana-jvm:2024.1
           upload-result: true
 
