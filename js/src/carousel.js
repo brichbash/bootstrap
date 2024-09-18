@@ -23,7 +23,7 @@ import BaseComponent from './base-component'
 /**
  * Constants
  */
-
+// TODO: FOO
 const NAME = 'carousel'
 const DATA_KEY = 'bs.carousel'
 const EVENT_KEY = `.${DATA_KEY}`
@@ -86,16 +86,18 @@ const DefaultType = {
   wrap: 'boolean',
   touch: 'boolean'
 }
-
+// TODO: FOO
 /**
  * Class definition
  */
+// TODO: FOO
 
 class Carousel extends BaseComponent {
   constructor(element, config) {
     super(element, config)
 
-    this._items = null
+    this._items = null // TODO: FOO
+
     this._interval = null
     this._activeElement = null
     this._isPaused = false
@@ -111,7 +113,7 @@ class Carousel extends BaseComponent {
   static get Default() {
     return Default
   }
-
+// TODO: FOO
   static get DefaultType() {
     return DefaultType
   }
