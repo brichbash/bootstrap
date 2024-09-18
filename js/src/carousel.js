@@ -28,7 +28,7 @@ const NAME = 'carousel'
 const DATA_KEY = 'bs.carousel'
 const EVENT_KEY = `.${DATA_KEY}`
 const DATA_API_KEY = '.data-api'
-
+// TODO: Dot
 const ARROW_LEFT_KEY = 'ArrowLeft'
 const ARROW_RIGHT_KEY = 'ArrowRight'
 const TOUCHEVENT_COMPAT_WAIT = 500 // Time for mouse compat events to fire after touch
@@ -90,6 +90,7 @@ const DefaultType = {
 /**
  * Class definition
  */
+// TODO: Dot
 
 class Carousel extends BaseComponent {
   constructor(element, config) {
@@ -133,6 +134,7 @@ class Carousel extends BaseComponent {
       this.next()
     }
   }
+// TODO: Dot
 
   prev() {
     this._slide(ORDER_PREV)
