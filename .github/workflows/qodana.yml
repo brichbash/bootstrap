@@ -29,5 +29,5 @@ jobs:
         with:
           use-nightly: true
           upload-result: true
-
+          args: -l,jetbrains/qodana-js:2024.1
 
