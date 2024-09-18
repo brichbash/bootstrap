@@ -13,6 +13,7 @@ jobs:
       pull-requests: write
       checks: write
     steps:
+      - run: echo ${{ github.event.pull_request.head.sha }}
       - uses: actions/checkout@v3
         with:
           ref: ${{ github.event.pull_request.head.sha }}  # to check out the actual pull request commit, not the merge commit
