@@ -13,20 +13,10 @@ jobs:
       pull-requests: write
       checks: write
     steps:
-      - name: Checkout PR
-        uses: actions/checkout@v4
-        if: github.event_name == 'pull_request' || github.event.pull_request.merged == true
+      - uses: actions/checkout@v3
         with:
-          ref: ${{ github.event.pull_request.head.sha }}
-          fetch-depth: ${{ github.event.pull_request.commits }}
-      - name: Checkout
-        uses: actions/checkout@v4
-        if: github.event_name != 'pull_request'
-        with:
-          fetch-depth: 0
-      - name: Get one more commit so Qodana we can identify the changes
-        if: github.event_name == 'pull_request'
-        run: git fetch --deepen=1
+          ref: ${{ github.event.pull_request.head.sha }}  # to check out the actual pull request commit, not the merge commit
+          fetch-depth: 0  # a full history is required for pull request analysis
       - uses: actions/setup-node@v2
         with:
           node-version: '16'
