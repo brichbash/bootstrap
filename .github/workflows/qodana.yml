@@ -28,5 +28,6 @@ jobs:
         env:
           QODANA_TOKEN: ${{ secrets.QODANA_TOKEN }}
         with:
+          useNightly: true
           upload-result: true
 
