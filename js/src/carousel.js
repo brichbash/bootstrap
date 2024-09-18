@@ -19,7 +19,7 @@ import Manipulator from './dom/manipulator'
 import SelectorEngine from './dom/selector-engine'
 import Swipe from './util/swipe'
 import BaseComponent from './base-component'
-
+// TODO: FOO
 /**
  * Constants
  */
@@ -37,6 +37,7 @@ const ORDER_NEXT = 'next'
 const ORDER_PREV = 'prev'
 const DIRECTION_LEFT = 'left'
 const DIRECTION_RIGHT = 'right'
+// TODO: FOO
 
 const EVENT_SLIDE = `slide${EVENT_KEY}`
 const EVENT_SLID = `slid${EVENT_KEY}`
@@ -54,6 +55,7 @@ const CLASS_NAME_END = 'carousel-item-end'
 const CLASS_NAME_START = 'carousel-item-start'
 const CLASS_NAME_NEXT = 'carousel-item-next'
 const CLASS_NAME_PREV = 'carousel-item-prev'
+// TODO: FOO
 
 const SELECTOR_ACTIVE = '.active'
 const SELECTOR_ACTIVE_ITEM = '.active.carousel-item'
