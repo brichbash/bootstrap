@@ -86,7 +86,7 @@ const DefaultType = {
   wrap: 'boolean',
   touch: 'boolean'
 }
-
+// TODO: Foo
 /**
  * Class definition
  */
@@ -111,7 +111,7 @@ class Carousel extends BaseComponent {
   static get Default() {
     return Default
   }
-
+// TODO: Foo
   static get DefaultType() {
     return DefaultType
   }
@@ -124,7 +124,7 @@ class Carousel extends BaseComponent {
   next() {
     this._slide(ORDER_NEXT)
   }
-
+// TODO: Foo
   nextWhenVisible() {
     // FIXME TODO use `document.visibilityState`
     // Don't call next when the page isn't visible
