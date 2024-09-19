@@ -37,7 +37,7 @@ const ORDER_NEXT = 'next'
 const ORDER_PREV = 'prev'
 const DIRECTION_LEFT = 'left'
 const DIRECTION_RIGHT = 'right'
-
+// TODO: Foo
 const EVENT_SLIDE = `slide${EVENT_KEY}`
 const EVENT_SLID = `slid${EVENT_KEY}`
 const EVENT_KEYDOWN = `keydown${EVENT_KEY}`
@@ -46,7 +46,7 @@ const EVENT_MOUSELEAVE = `mouseleave${EVENT_KEY}`
 const EVENT_DRAG_START = `dragstart${EVENT_KEY}`
 const EVENT_LOAD_DATA_API = `load${EVENT_KEY}${DATA_API_KEY}`
 const EVENT_CLICK_DATA_API = `click${EVENT_KEY}${DATA_API_KEY}`
-
+// TODO: Foo
 const CLASS_NAME_CAROUSEL = 'carousel'
 const CLASS_NAME_ACTIVE = 'active'
 const CLASS_NAME_SLIDE = 'slide'
@@ -90,7 +90,7 @@ const DefaultType = {
 /**
  * Class definition
  */
-
+// TODO: Foo
 class Carousel extends BaseComponent {
   constructor(element, config) {
     super(element, config)
@@ -106,7 +106,7 @@ class Carousel extends BaseComponent {
     this._indicatorsElement = SelectorEngine.findOne(SELECTOR_INDICATORS, this._element)
     this._addEventListeners()
   }
-
+// TODO: Foo
   // Getters
   static get Default() {
     return Default
