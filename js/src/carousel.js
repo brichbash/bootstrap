@@ -197,7 +197,7 @@ class Carousel extends BaseComponent {
 
     super.dispose()
   }
-
+// TODO aadd another problem
   // Private
   _configAfterMerge(config) {
     config.defaultInterval = config.interval
@@ -278,7 +278,7 @@ class Carousel extends BaseComponent {
     const isNext = order === ORDER_NEXT
     return getNextActiveElement(this._items, activeElement, isNext, this._config.wrap)
   }
-
+// TODO aadd another 
   _triggerSlideEvent(relatedTarget, eventDirectionName) {
     const targetIndex = this._getItemIndex(relatedTarget)
     const fromIndex = this._getItemIndex(this._getActive())
@@ -289,7 +289,7 @@ class Carousel extends BaseComponent {
       from: fromIndex,
       to: targetIndex
     })
-  }
+  }// TODO aadd another 
 
   _setActiveIndicatorElement(element) {
     if (!this._indicatorsElement) {
