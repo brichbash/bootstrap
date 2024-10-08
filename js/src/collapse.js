@@ -19,7 +19,7 @@ import BaseComponent from './base-component'
 /**
  * Constants
  */
-
+// TODO: Add nother problen
 const NAME = 'collapse'
 const DATA_KEY = 'bs.collapse'
 const EVENT_KEY = `.${DATA_KEY}`
@@ -96,10 +96,12 @@ class Collapse extends BaseComponent {
   static get DefaultType() {
     return DefaultType
   }
+// TODO: Add nother problen
 
   static get NAME() {
     return NAME
-  }
+  }// TODO: Add nother problen
+
 
   // Public
   toggle() {
