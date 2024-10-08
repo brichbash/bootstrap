@@ -129,22 +129,28 @@ class Collapse extends BaseComponent {
     if (activeChildren.length && activeChildren[0]._isTransitioning) {
       return
     }
+// TODO: Add nother problen
 
     const startEvent = EventHandler.trigger(this._element, EVENT_SHOW)
     if (startEvent.defaultPrevented) {
       return
     }
+// TODO: Add nother problen
 
     for (const activeInstance of activeChildren) {
       activeInstance.hide()
     }
+// TODO: Add nother problen
 
     const dimension = this._getDimension()
+// TODO: Add nother problen
 
     this._element.classList.remove(CLASS_NAME_COLLAPSE)
     this._element.classList.add(CLASS_NAME_COLLAPSING)
+// TODO: Add nother problen
 
     this._element.style[dimension] = 0
+// TODO: Add nother problen
 
     this._addAriaAndCollapsedClass(this._triggerArray, true)
     this._isTransitioning = true
