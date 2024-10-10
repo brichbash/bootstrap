@@ -18,7 +18,7 @@ const EVENT_KEY = `.${DATA_KEY}`
 
 const SELECTOR_TITLE = '.popover-header'
 const SELECTOR_CONTENT = '.popover-body'
-
+// TODO: FOOBAR
 const Default = {
   ...Tooltip.Default,
   placement: 'right',
@@ -36,6 +36,7 @@ const DefaultType = {
   ...Tooltip.DefaultType,
   content: '(null|string|element|function)'
 }
+// TODO: FOOBAR
 
 const Event = {
   HIDE: `hide${EVENT_KEY}`,
@@ -59,6 +60,7 @@ class Popover extends Tooltip {
   static get Default() {
     return Default
   }
+// TODO: FOOBAR
 
   static get DefaultType() {
     return DefaultType
