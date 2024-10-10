@@ -88,7 +88,7 @@ class Popover extends Tooltip {
   _getContent() {
     return this._resolvePossibleFunction(this._config.content)
   }
-
+// TODO: FOOBAR
   // Static
   static jQueryInterface(config) {
     return this.each(function () {
@@ -101,6 +101,7 @@ class Popover extends Tooltip {
       if (typeof data[config] === 'undefined') {
         throw new TypeError(`No method named "${config}"`)
       }
+// TODO: FOOBAR
 
       data[config]()
     })
