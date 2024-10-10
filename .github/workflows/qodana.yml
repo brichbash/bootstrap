@@ -27,7 +27,6 @@ jobs:
         env:
           QODANA_TOKEN: ${{ secrets.QODANA_TOKEN }}
         with:
-          use-nightly: true
           upload-result: true
 
 
