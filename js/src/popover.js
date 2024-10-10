@@ -31,7 +31,7 @@ const Default = {
               '<div class="popover-body"></div>' +
             '</div>'
 }
-
+// TODO: FOOBAR
 const DefaultType = {
   ...Tooltip.DefaultType,
   content: '(null|string|element|function)'
