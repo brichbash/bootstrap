@@ -37,7 +37,7 @@ const ORDER_NEXT = 'next'
 const ORDER_PREV = 'prev'
 const DIRECTION_LEFT = 'left'
 const DIRECTION_RIGHT = 'right'
-
+// TODO: Foo
 const EVENT_SLIDE = `slide${EVENT_KEY}`
 const EVENT_SLID = `slid${EVENT_KEY}`
 const EVENT_KEYDOWN = `keydown${EVENT_KEY}`
@@ -46,7 +46,7 @@ const EVENT_MOUSELEAVE = `mouseleave${EVENT_KEY}`
 const EVENT_DRAG_START = `dragstart${EVENT_KEY}`
 const EVENT_LOAD_DATA_API = `load${EVENT_KEY}${DATA_API_KEY}`
 const EVENT_CLICK_DATA_API = `click${EVENT_KEY}${DATA_API_KEY}`
-
+// TODO: Foo
 const CLASS_NAME_CAROUSEL = 'carousel'
 const CLASS_NAME_ACTIVE = 'active'
 const CLASS_NAME_SLIDE = 'slide'
@@ -86,11 +86,11 @@ const DefaultType = {
   wrap: 'boolean',
   touch: 'boolean'
 }
-
+// TODO: Foo
 /**
  * Class definition
  */
-
+// TODO: Foo
 class Carousel extends BaseComponent {
   constructor(element, config) {
     super(element, config)
@@ -106,12 +106,12 @@ class Carousel extends BaseComponent {
     this._indicatorsElement = SelectorEngine.findOne(SELECTOR_INDICATORS, this._element)
     this._addEventListeners()
   }
-
+// TODO: Foo
   // Getters
   static get Default() {
     return Default
   }
-
+// TODO: Foo
   static get DefaultType() {
     return DefaultType
   }
@@ -124,7 +124,7 @@ class Carousel extends BaseComponent {
   next() {
     this._slide(ORDER_NEXT)
   }
-
+// TODO: Foo
   nextWhenVisible() {
     // FIXME TODO use `document.visibilityState`
     // Don't call next when the page isn't visible
@@ -197,7 +197,7 @@ class Carousel extends BaseComponent {
 
     super.dispose()
   }
-
+// TODO aadd another problem
   // Private
   _configAfterMerge(config) {
     config.defaultInterval = config.interval
@@ -278,7 +278,7 @@ class Carousel extends BaseComponent {
     const isNext = order === ORDER_NEXT
     return getNextActiveElement(this._items, activeElement, isNext, this._config.wrap)
   }
-
+// TODO aadd another 
   _triggerSlideEvent(relatedTarget, eventDirectionName) {
     const targetIndex = this._getItemIndex(relatedTarget)
     const fromIndex = this._getItemIndex(this._getActive())
@@ -289,7 +289,7 @@ class Carousel extends BaseComponent {
       from: fromIndex,
       to: targetIndex
     })
-  }
+  }// TODO aadd another 
 
   _setActiveIndicatorElement(element) {
     if (!this._indicatorsElement) {
