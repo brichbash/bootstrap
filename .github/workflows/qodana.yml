@@ -29,6 +29,6 @@ jobs:
         with:
           # use-nightly: true
           upload-result: true
-          pr-mode: false
+          pr-mode: true
 
 
