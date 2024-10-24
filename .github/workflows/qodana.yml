@@ -23,7 +23,7 @@ jobs:
       - run: npm install
       - run: npm run js-test-karma
       - name: 'Qodana Scan'
-        uses: JetBrains/qodana-action@next
+        uses: JetBrains/qodana-action@v2024.2.5
         env:
           QODANA_TOKEN: ${{ secrets.QODANA_TOKEN }}
         with:
