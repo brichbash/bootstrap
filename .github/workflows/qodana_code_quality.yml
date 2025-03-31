@@ -24,7 +24,7 @@ jobs:
         with:
           pr-mode: false
           upload-result: true
-          args: --property,idea.log.debug.categories=\#com.intellij.workspaceModel
+          args: --property,idea.log.debug.categories=#com.intellij.workspaceModel
         env:
           QODANA_TOKEN: ${{ secrets.QODANA_TOKEN_2103224152 }}
           QODANA_ENDPOINT: 'https://qodana.cloud'
