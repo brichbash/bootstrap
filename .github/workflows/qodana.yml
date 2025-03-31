@@ -29,5 +29,6 @@ jobs:
         with:
           use-nightly: true
           upload-result: true
+          args: --property,idea.log.debug.categories=\#com.intellij.workspaceModel
 
 
