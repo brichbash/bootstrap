@@ -23,6 +23,7 @@ jobs:
         uses: JetBrains/qodana-action@v2024.3.4
         with:
           pr-mode: false
+          args: --property,idea.log.debug.categories=\#com.intellij.workspaceModel
         env:
           QODANA_TOKEN: ${{ secrets.QODANA_TOKEN_2103224152 }}
           QODANA_ENDPOINT: 'https://qodana.cloud'
